@@ -1,65 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Arhaan's Homework Helper</title>
-
-<style>
-body{
-font-family: Arial;
-background:#eef2ff;
-text-align:center;
-padding:40px;
-}
-
-h1{
-color:#2b4eff;
-}
-
-textarea{
-width:80%;
-height:120px;
-border-radius:8px;
-padding:10px;
-}
-
-button{
-padding:12px 20px;
-margin-top:10px;
-background:#2b4eff;
-color:white;
-border:none;
-border-radius:8px;
-}
-
-</style>
+<title>Arhaan's App</title>
 </head>
 
-<body>
+<body style="text-align:center;font-family:Arial">
 
 <h1>📚 Arhaan's Homework Helper</h1>
-
-<p>Type your homework question:</p>
-
-<textarea placeholder="Type homework here..."></textarea>
-
-<br>
-
-<button onclick="tip()">Study Tip</button>
-
-<p id="tip"></p>
-
-<script>
-function tip(){
-const tips = [
-"Study 25 minutes then take a 5 minute break.",
-"Start with the hardest homework first.",
-"Check your answers before submitting."
-];
-
-let random = Math.floor(Math.random()*tips.length);
-document.getElementById("tip").innerText = tips[random];
-}
-</script>
+<p>Your website works!</p>
 
 </body>
 </html>
